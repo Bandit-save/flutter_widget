@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/my_gird_page.dart';
+import 'package:flutter_application_1/my_listviwe_page.dart';
 //import 'package:flutter_application_1/my_scroll.dart';
-import 'package:flutter_application_1/word_widget.dart';
+//import 'package:flutter_application_1/word_widget.dart';
 
 
 void main() {
@@ -16,7 +18,7 @@ class MainApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: "My flutter Sample",
       // home: MyContainer()
-      home: MyWidget(),
+      home: MyListviwePage(),
 
     );
   }
